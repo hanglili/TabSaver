@@ -1,9 +1,8 @@
 {
-    "name": "Background Color",
+    "name": "TabSaver",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Save currently opened tabs of a window.",
     "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
-    "options_page": "client/html/options.html",
     "background": {
         "scripts": ["client/background.js"],
         "persistent": false
